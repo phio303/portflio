@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Munyana Phionah Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f7fa;
+      color: #333;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 50px;
+      background-color: #fff;
+    }
+
+    header nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #333;
+      font-weight: 700;
+    }
+
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 50px;
+      background-color: #fff;
+    }
+
+    .hero-text {
+      max-width: 50%;
+    }
+
+    .hero-text h1 {
+      font-size: 3rem;
+      margin: 0;
+      line-height: 1.2;
+    }
+
+    .hero-text p {
+      margin: 20px 0;
+      line-height: 1.6;
+    }
+
+    .hero-buttons {
+      margin-top: 20px;
+    }
+
+    .hero-buttons a {
+      margin-right: 15px;
+      padding: 10px 20px;
+      text-decoration: none;
+      color:white;
+      border-radius: 5px;
+      font-weight: 700;
+      background-color: #ffa500;
+    }
+
+    .hero img {
+      max-width: 40%;
+      border-radius: 10px;
+    }
+
+    .projects-section {
+      padding: 50px;
+      text-align: center;
+    }
+
+    .projects-section h2 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+
+    .project {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #fff;
+      padding: 20px;
+      margin: 20px auto;
+      max-width: 1000px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .project img {
+      max-width: 30%;
+      border-radius: 10px;
+    }
+
+    .project-content {
+      max-width: 65%;
+    }
+
+    .project-content h3 {
+      margin: 0;
+    }
+
+    .project-content p {
+      margin: 10px 0;
+      line-height: 1.6;
+    }
+
+    .project-content a {
+      text-decoration: none;
+      color: #fff;
+      background-color:#ffa500;
+      padding: 10px 20px;
+      border-radius: 5px;
+    }
+
+    .project-content a :hover{
+      background-color:#ff8c00;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color:#ffa500;
+      margin-top: 20px;
+    }
+
+    footer a {
+      margin: 0 10px;
+      text-decoration: none;
+      color:white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">M.Phionah</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="education.html">Education</a>
+      <a href="skills.html">Skills</a>
+      <a href="contact.html">Contacts</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-text">
+      <h1>Hello, My Name is Munyana Phionah</h1>
+      <p>Passionate software developer with full-stack expertise, committed to crafting scalable, innovative solutions that drive impact and inspire progress in the ever-evolving tech landscape.</p>
+      <div class="hero-buttons">
+        <a href="#projects">Projects</a>
+        <a href="#linkedin">LinkedIn</a>
+      </div>
+    </div>
+    <img src="img/image.png" alt="Munyana Phionah">
+  </section>
+
+  <section class="projects-section" id="projects">
+    <h2>Projects</h2>
+    
+    <div class="project">
+      <img src="img/berwa.png" alt="Berwa Shop">
+      <div class="project-content">
+        <h3>Berwa Shop</h3>
+        <p>I crafted the content management system for the Berwa Shop stock management.</p>
+        <a href="#">View Project</a>
+      </div>
+    </div>
+
+    <div class="project">
+      <img src="img/wis.png" alt="Wisdom TVET.S">
+      <div class="project-content">
+        <h3>Wisdom TVET.S</h3>
+        <p>Developed the Wisdom TVET School Management System, an innovative solution streamlining administrative tasks and enhancing operational efficiency for educational institutions.</p>
+        <a href="#">View Project</a>
+      </div>
+    </div>
+
+    <div class="project">
+      <img src="img/dri.png" alt="Rwanda Driving License">
+      <div class="project-content">
+        <h3>Rwanda Driving License</h3>
+        <p>Developed the Rwanda Driving License Management System, replacing paper-based processes with efficient digital solutions for registering, modifying, and managing candidates seamlessly.</p>
+        <a href="#">View Project</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; M.Phionah 2024</p>
+    <a href="#instagram">Instagram</a>
+    <a href="#linkedin">LinkedIn</a>
+    <a href="#email">Email</a>
+  </footer>
+</body>
+</html>

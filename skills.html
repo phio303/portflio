@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills Section</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-color: #f9f9ff;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 10%;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        header .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        header nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        header nav ul li {
+            display: inline;
+        }
+
+        header nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        header nav ul li a:hover {
+            color: #ffa500;
+        }
+
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 40px 10%;
+            background-color: #fff6e5;
+        }
+
+        .hero-text {
+            max-width: 50%;
+        }
+
+        .hero-text h1 {
+            font-size: 48px;
+            color: #333;
+        }
+
+        .hero-text h1 span {
+            color: #ffa500;
+        }
+
+        .hero-text p {
+            margin: 20px 0;
+            font-size: 18px;
+        }
+
+        .hero-text button {
+            padding: 10px 20px;
+            border: none;
+            background-color: #ffa500;
+            color: #fff;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .hero-text button:hover {
+            background-color: #ff8c00;
+        }
+
+        .hero-image img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        .skills {
+            padding: 40px 10%;
+        }
+
+        .skills h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .skill-card {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .skill-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .skill-card img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        .skill-card h3 {
+            margin: 20px 0 10px;
+            color: #333;
+        }
+
+        .skill-card p {
+            font-size: 16px;
+            color: #666;
+        }
+
+        .skill-card button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            border: none;
+            background-color: #ffa500;
+            color: #fff;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .skill-card button:hover {
+            background-color: #ff8c00;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">M. Phionah</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Me</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Hi, my name is <span>Munyana Phionah</span></h1>
+            <p>Skilled full-stack developer with expertise in software design, problem-solving, and scalable solutions.</p>
+            <button>Projects</button>
+            <button>LinkedIn</button>
+        </div>
+        <div class="hero-image">
+            <img src="/mnt/data/image (4).png" alt="M. Phionah">
+        </div>
+    </section>
+
+    <section class="skills">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <img src="https://via.placeholder.com/300" alt="Web Development">
+                <h3>Web Development</h3>
+                <p>Skilled in frontend and backend web development, creating dynamic, responsive websites and applications with modern technologies.</p>
+                <button>View Project</button>
+            </div>
+            <div class="skill-card">
+                <img src="https://via.placeholder.com/300" alt="Computer Literacy">
+                <h3>Computer Literacy</h3>
+                <p>Completed training at the Digital Skills Foundation, gaining essential skills to enhance expertise in digital innovation.</p>
+                <button>View Project</button>
+            </div>
+            <div class="skill-card">
+                <img src="https://via.placeholder.com/300" alt="Database Management">
+                <h3>Database Management Skills</h3>
+                <p>Proficient in designing, managing, and optimizing databases to support robust, scalable applications.</p>
+                <button>View Project</button>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

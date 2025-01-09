@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M. Phionah Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f9f9fc;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            background-color: #fff;
+        }
+
+        header h1 {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-size: 16px;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 50px;
+        }
+
+        .hero img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            background-color: #ffce00;
+            padding: 10px;
+        }
+
+        .hero .content {
+            max-width: 500px;
+        }
+
+        .hero h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            margin-bottom: 20px;
+        }
+
+        .hero .resume-btn {
+            background-color: #ffce00;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .contact {
+            text-align: center;
+            padding: 50px;
+        }
+
+        .contact h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        .contact form {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        .contact form input,
+        .contact form textarea,
+        .contact form button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .contact form button {
+            background-color: #ffce00;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .footer {
+            background-color: #ffce00;
+            padding: 20px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .footer p {
+            color: #fff;
+        }
+
+        .footer .icons {
+            margin: 10px 0;
+        }
+
+        .footer .icons img {
+            width: 30px;
+            margin: 0 10px;
+        }
+
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .hero {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .hero img {
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>M.Phionah</h1>
+        <nav>
+            <ul>
+                <li><a href="index8.html">Home</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="content">
+            <h2>About me</h2>
+            <p>Skilled full-stack developer with expertise in software design, problem-solving, and scalable solutions. Proficient in modern technologies, delivering innovative projects that align with industry standards and client needs.</p>
+            <button class="resume-btn">Resume</button>
+        </div>
+        <img src="img/gt.png" alt="Profile Picture">
+    </section>
+
+    <section class="contact">
+        <h2>Contact me</h2>
+        <form>
+            <input type="text" name="name" placeholder="Name" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <textarea name="message" rows="5" placeholder="Message / Proposed idea" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+        <div class="icons">
+            <img src="https://via.placeholder.com/30" alt="Instagram">
+            <img src="https://via.placeholder.com/30" alt="LinkedIn">
+            <img src="https://via.placeholder.com/30" alt="Email">
+        </div>
+        <p>&copy; M.Phionah 2024</p>
+    </section>
+
+    <footer class="footer">
+        <p>Designed by M.Phionah</p>
+    </footer>
+</body>
+</html>
